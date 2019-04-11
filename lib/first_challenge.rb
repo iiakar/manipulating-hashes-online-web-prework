@@ -18,6 +18,7 @@ def first_challenge
       email: "freddy@mercury.com",
       favorite_icecream_flavors: ["strawberry", "cookie dough", "mint chip"]
   
+  :favorite_icecream_flavors]).to_not include("strawberry")
 
 
   #remember to return your newly altered contacts hash!
